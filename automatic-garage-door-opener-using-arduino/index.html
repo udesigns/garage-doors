@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta http-equiv="content-language" content="en-us">
+<meta name="description" content="Automatic Garage Door Opener Using Arduino, Connect the ground to the ground of ir sensor and lm293d driver After that, if pir sensor senses any motion then program sends an command to open gate, stop gate, closing gate and stop gate.">
+
+<meta name="robots" content="index,follow">
+<meta name="googlebot" content="index,follow">
+   	
+    
+<title>Creatice Automatic Garage Door Opener Using Arduino for Simple Design | Carport and Garage Doors Ideas</title>
+<meta name="url" content="https://udesigns.github.io/garage-doors/automatic-garage-door-opener-using-arduino/" />
+<meta property="og:url" content="https://udesigns.github.io/garage-doors/automatic-garage-door-opener-using-arduino/">
+<meta property="article:author" content="Austin"> 
+<meta name="author" content="Austin">
+<meta name="geo.region" content="US">
+<meta name="geo.region" content="GB">
+<meta name="geo.region" content="CA">
+<meta name="geo.region" content="AU">
+<meta name="geo.region" content="IT">
+<meta name="geo.region" content="NL">
+<meta name="geo.region" content="DE">
+<link rel="canonical" href="https://udesigns.github.io/garage-doors/automatic-garage-door-opener-using-arduino/">
+<link rel="preconnect" href="https://stackpath.bootstrapcdn.com">
+<link rel="dns-prefetch" href="https://stackpath.bootstrapcdn.com">
+<link rel="preconnect" href="https://code.jquery.com">
+<link rel="dns-prefetch" href="https://code.jquery.com">
+<link rel="preconnect" href="https://i.pinimg.com">
+<link rel="dns-prefetch" href="https://i.pinimg.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://udesigns.github.io/assets/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Lora:400,400i,700">
+<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
+<link rel="stylesheet" href="https://udesigns.github.io/assets/css/main.css">
+<link rel="stylesheet" href="https://udesigns.github.io/assets/css/theme.css">
+<link rel="icon" type="image/png" href="/logo.png">
+<link rel="icon" type="image/x-icon" sizes="16x16 32x32" href="/favicon.ico">
+<link rel="shortcut icon" href="/favicon.ico">
+
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "BlogPosting",
+    "articleSection": "post",
+    "name": "Creatice Automatic Garage Door Opener Using Arduino for Simple Design",
+    "headline": "Creatice Automatic Garage Door Opener Using Arduino for Simple Design",
+    "alternativeHeadline": "",
+    "description": "An automatic door opener system is a simple project based on pir sensor and arduino, which automatically opens and closes the door by detecting a person or object. After that, if pir sensor senses any motion then program sends an command to open gate, stop gate, closing gate and stop gate.",
+    "inLanguage": "en-us",
+    "isFamilyFriendly": "true",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https:\/\/udesigns.github.io\/garage-doors\/automatic-garage-door-opener-using-arduino\/"
+    },
+    "author" : {
+        "@type": "Person",
+        "name": "Austin"
+    },
+    "creator" : {
+        "@type": "Person",
+        "name": "Austin"
+    },
+    "accountablePerson" : {
+        "@type": "Person",
+        "name": "Austin"
+    },
+    "copyrightHolder" : "Carport and Garage Doors Ideas",
+    "copyrightYear" : "2021",
+    "dateCreated": "2021-10-06T14:13:00.00Z",
+    "datePublished": "2021-10-06T14:13:00.00Z",
+    "dateModified": "2021-10-06T14:13:00.00Z",
+    "publisher":{
+        "@type":"Organization",
+        "name": "Carport and Garage Doors Ideas",
+        "url": "https://udesigns.github.io/garage-doors/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https:\/\/udesigns.github.io\/logo.png",
+            "width":"32",
+            "height":"32"
+        }
+    },
+    "image": "https://udesigns.github.io/logo.png",
+    "url" : "https:\/\/udesigns.github.io\/garage-doors\/automatic-garage-door-opener-using-arduino\/",
+    "wordCount" : "1742",
+    "genre" : [ "decorating ideas" ],
+    "keywords" : [ "Automatic" , "Garage" , "Door" , "Opener" , "Using" , "Arduino" ]
+}
+</script>
+
+</head>
+  <body>    
+    <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="https://udesigns.github.io/garage-doors/"><span style="text-transform: capitalize;font-weight: bold;">Carport and Garage Doors Ideas</strong></a><button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="navbar-collapse collapse" id="navbarColor02" style="">
+            <ul class="navbar-nav mr-auto d-flex align-items-center">
+               
+               <li class="nav-item"><a class="nav-link" href="https://udesigns.github.io/contact/">Contact</a></li>
+               <li class="nav-item"><a class="nav-link" href="https://udesigns.github.io/dmca/">Dmca</a></li>
+               <li class="nav-item"><a class="nav-link" href="https://udesigns.github.io/privacy-policy/">Privacy Policy</a></li>
+               <li class="nav-item"><a class="nav-link" href="https://udesigns.github.io/about/">About</a></li><li class="nav-item"><a class="nav-link" style="text-transform: capitalize;" href="https://udesigns.github.io/garage-doors/categories/bathroom/" title="Bathroom">Bathroom</a></li><li class="nav-item"><a class="nav-link" style="text-transform: capitalize;" href="https://udesigns.github.io/garage-doors/categories/bedroom/" title="Bedroom">Bedroom</a></li><li class="nav-item"><a class="nav-link" style="text-transform: capitalize;" href="https://udesigns.github.io/garage-doors/categories/exterior/" title="Exterior">Exterior</a></li><li class="nav-item"><a class="nav-link" style="text-transform: capitalize;" href="https://udesigns.github.io/garage-doors/categories/furniture/" title="furniture">furniture</a></li><li class="nav-item"><a class="nav-link" style="text-transform: capitalize;" href="https://udesigns.github.io/garage-doors/categories/interior/" title="Interior">Interior</a></li><li class="nav-item"><a class="nav-link" style="text-transform: capitalize;" href="https://udesigns.github.io/garage-doors/categories/kitchen/" title="Kitchen">Kitchen</a></li><li class="nav-item"><a class="nav-link" style="text-transform: capitalize;" href="https://udesigns.github.io/garage-doors/categories/living-room/" title="Living Room">Living Room</a></li></ul>
+        </div>
+    </div>
+    </nav>
+    <main role="main" class="site-content">
+<div class="container">
+<div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
+        <div class="h-100 tofront">
+            <div class="row justify-content-between ">
+                <div class=" col-md-6 pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+                    <p class="text-uppercase font-weight-bold"><span class="catlist"><a class="sscroll text-danger" href="https://udesigns.github.io/garage-doors/categories/living-room"/>Living Room</a> . </span></p>
+                    <h1 class="display-4 mb-4 article-headline">Creatice Automatic Garage Door Opener Using Arduino for Simple Design</h1>
+                    <div class="d-flex align-items-center">
+                        <small class="ml-3">Written by Austin <span class="text-muted d-block mt-1">Oct 06, 2021 · <span class="reading-time">9 min read</span></span></small>
+                    </div>
+                </div>
+                <div class="col-md-6 pr-0 align-self-center">
+                    <img class="rounded" src="https://circuitdigest.com/sites/default/files/projectimage_mic/Automatic-Door-Opener.jpg" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';" alt="Creatice Automatic Garage Door Opener Using Arduino for Simple Design"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-lg pt-4 pb-4">
+    <div class="row justify-content-center">
+        <div class="col-md-12 col-lg-8">
+            <article class="article-post">
+            <p>An automatic door opener system is a simple project based on pir sensor and arduino, which automatically opens and closes the door by detecting a person or object. After that, if pir sensor senses any motion then program sends an command to open gate, stop gate, closing gate and stop gate.</p>
+
+
+<p><strong>Automatic Garage Door Opener Using Arduino</strong>, Connect the ground to the ground of ir sensor and lm293d driver After that, if pir sensor senses any motion then program sends an command to open gate, stop gate, closing gate and stop gate.</p>
+<p><img loading="lazy" width="100%" src="https://udesigns.github.io/img/placeholder.svg" data-src="https://tse1.mm.bing.net/th?q=automatic%20garage%20door%20opener%20using%20arduino" alt="Arduino WiFi Garage Door Opener Arduino wifi, Arduino" title="Arduino WiFi Garage Door Opener Arduino wifi, Arduino" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';" class="center" />
+Arduino WiFi Garage Door Opener Arduino wifi, Arduino From pinterest.com</p>
+<p>Automatic door opener using arduino; Material for making a case to hold the components eg. Connect the nodemcu with the laptop/pc using the usb cable and choose the board from the tools menu and upload the code. You might have seen automatic door opener systems at shopping malls, cinemas, hospitals etc.</p>
+<h3 id="this-system-is-controlled-by-arduino-micro-controller">This system is controlled by arduino micro controller.</h3><p>You can implement this arduino based project at you home in garage door openers,. This system is controlled by arduino micro controller. When you input your password, the arduino triggers a relay that acts like a wired garage door remote that you often see next to the internal door. Connect the nodemcu with the laptop/pc using the usb cable and choose the board from the tools menu and upload the code. This sets the garage door opening mechanism into motion, letting you through with the a new felt sense of control over your home! It hosts the web page you connect to when you want to open the door and triggers the garage door opener (via the relay) when the correct password is entered.</p>
+<div class="d-block p-4">
+	<center>
+		<script type="text/javascript">
+	atOptions = {
+		'key' : '044478bac56eb613662b93ef204db084',
+		'format' : 'iframe',
+		'height' : 250,
+		'width' : 300,
+		'params' : {}
+	};
+	document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.creativeformatsnetwork.com/044478bac56eb613662b93ef204db084/invoke.js"></scr' + 'ipt>');
+		</script>
+	</center>
+</div>
+<p><img loading="lazy" width="100%" src="https://udesigns.github.io/img/placeholder.svg" data-src="https://i2.wp.com/i.ytimg.com/vi/vZCPzQGDBzw/maxresdefault.jpg" alt="Arduino Garage Door opener. YouTube" title="Arduino Garage Door opener. YouTube" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';" class="center" />
+Source: youtube.com</p>
+<p>//connects buzzer to digital pin 12 int ir = 2; Two digital pins of arduino are initialized as output to control the garage door and light. Just follow the below simple rule. Connect the ground to the ground of ir sensor and lm293d driver This system is controlled by arduino micro controller.</p>
+<p><img loading="lazy" width="100%" src="https://udesigns.github.io/img/placeholder.svg" data-src="https://i2.wp.com/s-media-cache-ak0.pinimg.com/originals/2b/59/11/2b591173ffa14fec71ea3894b410c35d.png" alt="Pin by Svastics Zoltán on Arduino Pinterest Arduino" title="Pin by Svastics Zoltán on Arduino Pinterest Arduino" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>You might have seen automatic door opener systems at shopping malls, cinemas, hospitals etc. You can implement this arduino based project at you home in garage door openers,. //connects buzzer to digital pin 12 int ir = 2; Material for making a case to hold the components eg. There is a possibility that you may run into a slight inconvenience.</p>
+<p><img loading="lazy" width="100%" src="https://udesigns.github.io/img/placeholder.svg" data-src="https://i2.wp.com/i.ytimg.com/vi/TP8UfJgs2lU/maxresdefault.jpg" alt="Arduino RFID Garage Door Opener YouTube" title="Arduino RFID Garage Door Opener YouTube" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';" class="center" />
+Source: youtube.com</p>
+<p>A red led (open_door_led) will also be lit if the arduino has had to close the garage door. A moteino (rf arduino variant) reads the input signal of the headlights flashing three times, and then communicates wirelessly to the garage door in order to open it. Where, as soon as a person approaches the door (at about 2 or 3.</p>
+<p><img loading="lazy" width="100%" src="https://udesigns.github.io/img/placeholder.svg" data-src="https://i2.wp.com/hackster.imgix.net/uploads/attachments/185493/GenieAndArduino.jpg?auto=compress%2Cformat&amp;amp;w=900&amp;amp;h=675&amp;amp;fit=min" alt="Windows 10 Universal Bluetooth Garage Door Opener" title="Windows 10 Universal Bluetooth Garage Door Opener" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';" class="center" />
+Source: hackster.io</p>
+<p>Today is 17 december 2016 and i’m going to demonstrate my project automatic door, oblique system which is guided by mr. You can implement this arduino based project at you home in garage door openers,. Iot based door security alarm controlled by google assistant; Now, open the serial monitor. This project can be considered as an extension of arduino pir.</p>
+<p><img loading="lazy" width="100%" src="https://udesigns.github.io/img/placeholder.svg" data-src="https://i2.wp.com/4.bp.blogspot.com/-kQk5qnxzuhM/WNNaDFM50aI/AAAAAAAAA9Q/4mDjGK_zwlMi1S3j1zFYxD5MYqXaHYB3wCEw/s1600/IMAG0244.jpg" alt="Arduino Project Arduino Automatic Garage Door Closer" title="Arduino Project Arduino Automatic Garage Door Closer" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';" class="center" />
+Source: ap170210.blogspot.com</p>
+<p>Genie garage door sensors elsewhere all about circuits. The circuit diagram of an automatic door opening and closing system is shown below. In this instructable we will build a door which can open and close automatically without you touching the door. Automatic door opener using arduino; These systems are already being used in many places like malls, theatres and hospitals.</p>
+<p><img loading="lazy" width="100%" src="https://udesigns.github.io/img/placeholder.svg" data-src="https://i2.wp.com/1.bp.blogspot.com/-hL3AbsbhA2E/WNNaDhwGzvI/AAAAAAAAA9Q/bCUTUAUq4zcmLlOdO1CL1gpRFTnE0u7cwCEw/s1600/IMAG0252.jpg" alt="Arduino Project Arduino Automatic Garage Door Closer" title="Arduino Project Arduino Automatic Garage Door Closer" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';" class="center" />
+Source: ap170210.blogspot.com</p>
+<p>The system includes dc motor which makes door to slides during opening or closing by rack and pinion gearing, a lcd to display information state of door, an audio buzzer to make sound through the duration of opened door and a controller for controlling the opening and closing of the door as a person or object. Automatic door opener using.</p>
+<p><img loading="lazy" width="100%" src="https://udesigns.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/d5/61/41/d5614107e81df5e324c6b1ce05e9d70e.jpg" alt="ArduinoEnabled Observatory Dome Door Opener Door opener" title="ArduinoEnabled Observatory Dome Door Opener Door opener" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>This system is controlled by arduino micro controller. It will be a very cool and very interesting projec and can be used this for car garage as well as main gate. But [luis] also has a gate outside his property — so if you hold the lights on for a second, both the garage door and the external gate will.</p>
+<p><img loading="lazy" width="100%" src="https://udesigns.github.io/img/placeholder.svg" data-src="https://i2.wp.com/hackster.imgix.net/uploads/attachments/205873/FVGPIXFIOUC1A2V.LARGE.jpg?auto=compress%2Cformat&amp;amp;w=900&amp;amp;h=675&amp;amp;fit=min" alt="Arduino RFID Garage Door Opener Arduino Project Hub" title="Arduino RFID Garage Door Opener Arduino Project Hub" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';" class="center" />
+Source: create.arduino.cc</p>
+<p>The circuit diagram of an automatic door opening and closing system is shown below. Make a automatic self sensing opening and closing door with arduino!: Well this project proposes a system that allows for automatic door opening solution by sensing human presence near it. In this instructable we will build a door which can open and close automatically without you.</p>
+<p><img loading="lazy" width="100%" src="https://udesigns.github.io/img/placeholder.svg" data-src="https://i2.wp.com/i.ytimg.com/vi/mosdpkepem8/maxresdefault.jpg" alt="Arduino Garage Door Opener YouTube" title="Arduino Garage Door Opener YouTube" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';" class="center" />
+Source: youtube.com</p>
+<p>How to build and configure a control unit based on arduino for opening, closing and other actions for a motorized sliding door. The project generally relates to an automatic opening and closing of door which will sense person or object approaching door and open automatically. You can implement this arduino based project at you home in garage door openers,. Applications.</p>
+<p><img loading="lazy" width="100%" src="https://udesigns.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/6e/4e/f7/6e4ef792c1eb90a9a28e83b1fb6b2320.jpg" alt="ATmega based Garage Door Opening goo.gl/UDN6ds ECE EEE" title="ATmega based Garage Door Opening goo.gl/UDN6ds ECE EEE" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>This system is controlled by arduino micro controller. In this project, we will be using the power of rfid to tap into your garage door opening system. In this stud y, using arduino�s work platfor m, a garage door system has been developed that open s and closes aut omatically according to the car license plate numbers defined. Today is.</p>
+<p><img loading="lazy" width="100%" src="https://udesigns.github.io/img/placeholder.svg" data-src="https://i2.wp.com/i.ytimg.com/vi/hBuDjgUgCT8/maxresdefault.jpg" alt="The Arduino Garage Door Opener YouTube" title="The Arduino Garage Door Opener YouTube" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';" class="center" />
+Source: youtube.com</p>
+<p>Now, open the serial monitor. //connects buzzer to digital pin 12 int ir = 2; There is a possibility that you may run into a slight inconvenience when using this system if your router does not support loopback. This sets the garage door opening mechanism into motion, letting you through with the a new felt sense of control over your.</p>
+<p><img loading="lazy" width="100%" src="https://udesigns.github.io/img/placeholder.svg" data-src="https://i2.wp.com/i.ytimg.com/vi/RkaU69l-waw/maxresdefault.jpg" alt="Diy Gate Opener Arduino Openopener Hackaday Io / After" title="Diy Gate Opener Arduino Openopener Hackaday Io / After" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';" class="center" />
+Source: historiaterceromediocai.blogspot.com</p>
+<p>Garage shutter door and light are activated by user. A button, swicth, ir sensor etc. Just follow the below simple rule. Automatic sliding door for the garage. In program we have only used digital input output.</p>
+<p><img loading="lazy" width="100%" src="https://udesigns.github.io/img/placeholder.svg" data-src="https://i2.wp.com/cdn.instructables.com/ORIG/FA3/05VY/HRH0Y0IP/FA305VYHRH0Y0IP.jpg?width=2100" alt="Arduino Home Automation, Automatic Door Opener 6 Steps" title="Arduino Home Automation, Automatic Door Opener 6 Steps" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';" class="center" />
+Source: instructables.com</p>
+<p>Here a raspberry pi web server will be created to open and close the garage door using your. There is a possibility that you may run into a slight inconvenience when using this system if your router does not support loopback. An arduino board, i used the arduino uno rev 3. //this the code for the automatic door opener //.</p>
+<p><img loading="lazy" width="100%" src="https://udesigns.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/41/a4/6d/41a46d710835d6ccc5c47b1c75c63cf7.jpg" alt="Automatic Door Opener System using Arduino and PIR Sensor" title="Automatic Door Opener System using Arduino and PIR Sensor" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>This system is controlled by arduino micro controller. Wood, plastic sheets, acrylic etc. An automatic door opener system is a simple project based on pir sensor and arduino, which automatically opens and closes the door by detecting a person or object. Garage shutter door and light are activated by user. Automatic door opening system circuit.</p>
+<p><img loading="lazy" width="100%" src="https://udesigns.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/11/7c/da/117cda1fb319e2ce007c3a4148163990.jpg" alt="IPhone / Android, 8266 Arduino Blynk Garage Door Opener" title="IPhone / Android, 8266 Arduino Blynk Garage Door Opener" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>Applications arduino based automatic door opener system is a very useful project as it enables you to understand the concept of such automatic door opener systems and how they work. Garage door opener circuit design tom electric eye openers the new radio garagemate bluemate labs inc never a remote again technopcb printed board and automatic detailed universal stopped arduino using.</p>
+<p><img loading="lazy" width="100%" src="https://udesigns.github.io/img/placeholder.svg" data-src="https://i2.wp.com/cdn.instructables.com/ORIG/FZR/J72I/HZL3RKH6/FZRJ72IHZL3RKH6.jpg?fit=bounds&amp;amp;width=1024" alt="Arduino Automatic Door Opener Instructables" title="Arduino Automatic Door Opener Instructables" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';" class="center" />
+Source: instructables.com</p>
+<p>In this stud y, using arduino�s work platfor m, a garage door system has been developed that open s and closes aut omatically according to the car license plate numbers defined. The system includes dc motor which makes door to slides during opening or closing by rack and pinion gearing, a lcd to display information state of door, an audio.</p>
+<p><img loading="lazy" width="100%" src="https://udesigns.github.io/img/placeholder.svg" data-src="https://i2.wp.com/www.forward.com.au/pfod/GarageDoorRemote/GarageDoorNoSolderParts_small.jpg" alt="Android controlled Garage Door Remote pfodDevice™ for Arduino" title="Android controlled Garage Door Remote pfodDevice™ for Arduino" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';" class="center" />
+Source: forward.com.au</p>
+<p>You might have seen automatic door opener systems at shopping malls, cinemas, hospitals etc. Now you can by following this instructable. The switch grounds the signal wire to make it happen. Arduino rfid garage door opener project tutorial by team robotgeek projects team Magnetic door alarm circuit using hall sensor;</p>
+<p><img loading="lazy" width="100%" src="https://udesigns.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/ed/c4/87/edc487a108f6010932701234cdd50b2d.jpg" alt="Arduino WiFi Garage Door Opener Arduino wifi, Arduino" title="Arduino WiFi Garage Door Opener Arduino wifi, Arduino" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>Just follow the below simple rule. A button, swicth, ir sensor etc. How to build and configure a control unit based on arduino for opening, closing and other actions for a motorized sliding door. But [luis] also has a gate outside his property — so if you hold the lights on for a second, both the garage door and the.</p>
+<p><img loading="lazy" width="100%" src="https://udesigns.github.io/img/placeholder.svg" data-src="https://i2.wp.com/duino4projects.com/wp-content/uploads/2014/11/Arduino-WiFi-Garage-Door-Opener.jpg" alt="Arduino WiFi Garage Door Opener" title="Arduino WiFi Garage Door Opener" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';" class="center" />
+Source: duino4projects.com</p>
+<p>This system is controlled by arduino micro controller. The android app is called �garage door controller� and is available for free on google play. Output pins are connected to relays. Automatic door opening system circuit. Make a automatic self sensing opening and closing door with arduino!:</p>
+<p><img loading="lazy" width="100%" src="https://udesigns.github.io/img/placeholder.svg" data-src="https://i2.wp.com/circuitdigest.com/sites/default/files/projectimage_mic/Automatic-Door-Opener.jpg" alt="PIR Sensor based Automatic Door Opener Project using PIR" title="PIR Sensor based Automatic Door Opener Project using PIR" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';" class="center" />
+Source: circuitdigest.com</p>
+<p>The circuit connection of an automatic door opening system is shown. A mosfet transistor, or a servo to trigger the door (required) 5. Very useful for doctors offices with many patients like hematology lab. In this stud y, using arduino�s work platfor m, a garage door system has been developed that open s and closes aut omatically according to the.</p>
+<p><img loading="lazy" width="100%" src="https://udesigns.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/4e/f3/90/4ef390f47a503414527b7e28742c1205.jpg" alt="Dooropener Garage door opener, Garage doors, Automatic" title="Dooropener Garage door opener, Garage doors, Automatic" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>An automatic door opener system is a simple project based on pir sensor and arduino, which automatically opens and closes the door by detecting a person or object. This system is controlled by arduino micro controller. Nithish murugavenkatesh #include &lt;servo.h&gt; // imports servo library servo servo; Applications arduino based automatic door opener system is a very useful project as it.</p>
+<p><img loading="lazy" width="100%" src="https://udesigns.github.io/img/placeholder.svg" data-src="https://i2.wp.com/www.engineersgarage.com/wp-content/uploads/2019/07/raspberry-pi-automatic-door-opener_0.jpg" alt="Raspberry pi Based Automatic Door Opener" title="Raspberry pi Based Automatic Door Opener" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';" class="center" />
+Source: engineersgarage.com</p>
+<p>Here in this tutorial we will build a smart garage door opener using raspberry pi. In program we have only used digital input output. Just follow the below simple rule. In this project, we will be using the power of rfid to tap into your garage door opening system. This project can be considered as an extension of arduino pir.</p>
+<p><img loading="lazy" width="100%" src="https://udesigns.github.io/img/placeholder.svg" data-src="https://i2.wp.com/i.ytimg.com/vi/KrfAFrT-FPo/maxresdefault.jpg" alt="Arduino Project Automatic Door Opener YouTube" title="Arduino Project Automatic Door Opener YouTube" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';" class="center" />
+Source: youtube.com</p>
+<p>Garage shutter door and light are activated by user. In program we have only used digital input output. To tell when to open the door. I am aiming to operate my automatic garage door using an arduino pro mini, 3.3v. This sets the garage door opening mechanism into motion, letting you through with the a new felt sense of control.</p>
+<p><img loading="lazy" width="100%" src="https://udesigns.github.io/img/placeholder.svg" data-src="https://i2.wp.com/hackster.imgix.net/uploads/attachments/205839/FRWP7ZIIOUC1B2H.LARGE.jpg?auto=compress%2Cformat&amp;amp;w=680&amp;amp;h=510&amp;amp;fit=max" alt="Arduino RFID Garage Door Opener Arduino Project Hub" title="Arduino RFID Garage Door Opener Arduino Project Hub" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';" class="center" />
+Source: create.arduino.cc</p>
+<p>A red led (open_door_led) will also be lit if the arduino has had to close the garage door. //this the code for the automatic door opener // author : Just follow the below simple rule. Well this project proposes a system that allows for automatic door opening solution by sensing human presence near it. Arduino automatic door opener this project.</p>
+<p><img loading="lazy" width="100%" src="https://udesigns.github.io/img/placeholder.svg" data-src="https://i.pinimg.com/originals/9b/e3/7e/9be37e92870112a3ca878d12f3b81bf8.jpg" alt="Automatic door opening system aokbmorq5c Automatic door" title="Automatic door opening system aokbmorq5c Automatic door" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';" class="center" />
+Source: pinterest.com</p>
+<p>Very useful for doctors offices with many patients like hematology lab. This system is controlled by arduino micro controller. Here a raspberry pi web server will be created to open and close the garage door using your. I am wondering if there is any issues in connecting the 5v signal wire to a digital pin, and then pulsing the output.</p>
+
+            </article>
+            <div class="row"><div class="posts-image" style="width:50%;"><a style="margin:5px;" href="/garage-doors/garage-door-size-in-mm/">&laquo;&laquo;&nbsp;New Garage Door Size In Mm for Large Space</a></div>
+    <div class="posts-image" style="width:50%"><a style="margin:5px;" href="/garage-doors/garage-door-flood-barrier-threshold-kit/">Modern Garage Door Flood Barrier Threshold Kit for Large Space&nbsp;&raquo;&raquo;</a></div></div>
+            
+            <div class="mb-4">
+                <span class="taglist"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+<div class="container pt-4 pb-4">
+    
+    <h5 class="font-weight-bold spanborder"><span>Related Article</span></h5>
+    <div class="row">
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/garage-doors/how-to-change-keypad-code-on-genie-garage-door-opener/"><img height="80" src="/img/placeholder.svg" data-src="http://i.ebayimg.com/images/i/251083936676-0-1/s-l1000.jpg" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/garage-doors/how-to-change-keypad-code-on-genie-garage-door-opener/">Modern How To Change Keypad Code On Genie Garage Door Opener for Small Space</a>
+                        </h2>
+                        <small class="text-muted">Sep 19 . 8 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/garage-doors/garage-door-companies-omaha/"><img height="80" src="/img/placeholder.svg" data-src="https://overheaddooromaha.com/wp-content/uploads/2018/03/ohd_commercial_2.jpg" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/garage-doors/garage-door-companies-omaha/">Simple Garage Door Companies Omaha for Large Space</a>
+                        </h2>
+                        <small class="text-muted">Dec 12 . 9 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/garage-doors/weather-defender-garage-door-floor-seal-strip/"><img height="80" src="/img/placeholder.svg" data-src="https://i.pinimg.com/736x/e7/72/01/e77201799686189f454700f56d677425--garage-doors-adhesive.jpg" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/garage-doors/weather-defender-garage-door-floor-seal-strip/">Minimalist Weather Defender Garage Door Floor Seal Strip </a>
+                        </h2>
+                        <small class="text-muted">Jan 25 . 9 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/garage-doors/garage-door-electric-conversion/"><img height="80" src="/img/placeholder.svg" data-src="https://www.doormaticgaragedoors.co.uk/wp-content/uploads/2017/09/automated.jpg" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/garage-doors/garage-door-electric-conversion/">Modern Garage Door Electric Conversion </a>
+                        </h2>
+                        <small class="text-muted">Mar 14 . 9 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/garage-doors/bd-garage-door-app/"><img height="80" src="/img/placeholder.svg" data-src="https://i.pinimg.com/originals/f2/02/3b/f2023baf3b9139b4ac1856098bd8ed71.jpg" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/garage-doors/bd-garage-door-app/">Minimalist Bd Garage Door App for Living room</a>
+                        </h2>
+                        <small class="text-muted">Aug 25 . 9 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/garage-doors/garage-door-doctor-careers/"><img height="80" src="/img/placeholder.svg" data-src="https://overheaddoorsales.ca/wp-content/uploads/2020/03/intro-2.jpg" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/garage-doors/garage-door-doctor-careers/">Minimalist Garage Door Doctor Careers for Small Space</a>
+                        </h2>
+                        <small class="text-muted">Sep 09 . 9 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/garage-doors/garage-door-and-gate-solutions/"><img height="80" src="/img/placeholder.svg" data-src="https://www.perfectsolutionsgaragedoor.com/wp-content/uploads/2020/01/IMG_20190911_152924.jpg" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/garage-doors/garage-door-and-gate-solutions/">Modern Garage Door And Gate Solutions for Large Space</a>
+                        </h2>
+                        <small class="text-muted">Jan 06 . 9 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/garage-doors/garage-door-screen-enclosure/"><img height="80" src="/img/placeholder.svg" data-src="https://s-media-cache-ak0.pinimg.com/736x/a8/92/a8/a892a8575fdfcfce832df97964692553.jpg" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/garage-doors/garage-door-screen-enclosure/">Unique Garage Door Screen Enclosure for Large Space</a>
+                        </h2>
+                        <small class="text-muted">Oct 03 . 9 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/garage-doors/garage-door-trim-ontario/"><img height="80" src="/img/placeholder.svg" data-src="https://i.pinimg.com/originals/f3/6c/28/f36c28f4bfa50b2664a26692090db4e4.jpg" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/garage-doors/garage-door-trim-ontario/">Unique Garage Door Trim Ontario for Small Space</a>
+                        </h2>
+                        <small class="text-muted">Mar 25 . 9 min read</small>
+                    </div>
+                </div>
+        </div>
+        <div class="col-lg-6">
+                <div class="mb-3 d-flex align-items-center">
+                    <a href="/garage-doors/roller-door-jamb-detail/"><img height="80" src="/img/placeholder.svg" data-src="http://static1.squarespace.com/static/597b82f720099ebb98a1dd61/59932545be65946755ae1d41/59dbd033a9db09b4a10525bb/1531527811536/Fire&#43;Door&#43;Drawing.jpg?format=1000w" onerror="this.onerror=null;this.src='https:\/\/udesigns.github.io\/img\/placeholder.svg';"/></a>
+                    <div class="pl-3">
+                        <h2 class="mb-2 h6 font-weight-bold">
+                        <a class="text-dark" href="/garage-doors/roller-door-jamb-detail/">New Roller Door Jamb Detail for Living room</a>
+                        </h2>
+                        <small class="text-muted">Feb 08 . 9 min read</small>
+                    </div>
+                </div>
+        </div>
+</div>
+</div>
+</div>
+    </main>    <script async="async" src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script async="async" src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script async="async" src="https://udesigns.github.io/assets/js/theme.js"></script>
+    <script>function init(){var imgDefer=document.getElementsByTagName('img');for (var i=0; i<imgDefer.length; i++){if(imgDefer[i].getAttribute('data-src')){imgDefer[i].setAttribute('src',imgDefer[i].getAttribute('data-src'));}}}window.onload=init;</script>
+    
+    <footer class="bg-white border-top p-3 text-muted small">
+        <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div><span style="text-transform: capitalize;"><a href="https://udesigns.github.io/garage-doors/">Carport and Garage Doors Ideas</a> Copyright &copy; 2022.</span></div>
+            
+        </div>
+        </div>
+    </footer>
+
+
+<script type="text/javascript">
+var sc_project=12673169; 
+var sc_invisible=1; 
+var sc_security="7426f851"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/12673169/0/7426f851/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+
+ 
+  </body>
+</html>
